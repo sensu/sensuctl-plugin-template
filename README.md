@@ -1,1 +1,1 @@
-# example-handler-plugin
+# sensuctl-plugin-template
