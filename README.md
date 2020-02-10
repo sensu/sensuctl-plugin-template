@@ -1,7 +1,7 @@
 # Sensuctl Plugin Template
 
 ## Overview
-sensuctl-plugin-template is a template repository which wraps the [Sensu Plugins Go Library][2].
+sensuctl-plugin-template is a template repository which wraps the [Sensu Plugin SDK][2].
 To use this project as a template, click the "Use this template" button from the main project page.
 Once the repository is created from this template, you can use the [Sensu Plugin Tool][9] to
 populate the templated fields with the proper values.
@@ -39,7 +39,7 @@ the plugin with goreleaser. Register the asset with [Bonsai][8] to share it with
 
 ## Overview
 
-The {{ .Name }} is a [Sensu CLI][9] tool (`sensuctl`) that ...
+The {{ .Name }} is a [Sensu CLI][6] tool (`sensuctl`) that ...
 
 ## Files
 
@@ -57,7 +57,7 @@ command to add the asset:
 sensuctl asset add {{ .GithubUser }}/{{ .GithubProject }}
 ```
 
-If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index][6].
+If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index][https://bonsai.sensu.io/assets/{{ .GithubUser }}/{{ .GithubProject }}].
 
 ### Resource definition
 
@@ -84,8 +84,7 @@ For more information about contributing to this plugin, see [Contributing][1].
 [3]: https://github.com/sensu-plugins/community/blob/master/PLUGIN_STYLEGUIDE.md
 [4]: https://github.com/sensu-community/sensuctl-plugin-template/blob/master/.github/workflows/release.yml
 [5]: https://github.com/sensu-community/sensuctl-plugin-template/actions
-[6]: https://bonsai.sensu.io/assets/{{ .GithubUser }}/{{ .GithubProject }}
+[6]: https://docs.sensu.io/sensu-go/latest/sensuctl/reference/
 [7]: https://github.com/sensu-community/sensuctl-plugin-template/blob/master/main.go
 [8]: https://bonsai.sensu.io/
 [9]: https://github.com/sensu-community/sensu-plugin-tool
-[10]: https://docs.sensu.io/sensu-go/latest/sensuctl/reference/
