@@ -1,7 +1,7 @@
 builds:
   - env:
     - CGO_ENABLED=0
-    main: main.go
+    main: .
     binary: bin/entrypoint
     goos:
       - darwin
